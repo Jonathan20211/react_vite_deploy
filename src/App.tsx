@@ -16,7 +16,7 @@ function App() {
           <Header />
           <Routes>
             <Route>
-              <Route path='/' element={<Home />} />
+              <Route path='react_vite_deploy/' element={<Home />} />
               <Route path='/historia' element={<Historia />} />
               <Route path='/perfil' element={<Perfil />} />
               <Route path='/contato' element={<Contato />} />
