@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://Jonathan20211.github.io/react_vite_deploy", 
+  "homepage": "http://Jonathan20211.github.io/react_vite_deploy",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
