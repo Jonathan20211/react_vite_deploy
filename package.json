@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://Jonathan20211.github.io",
+  "homepage": "http://Jonathan20211.github.io/react_vite_deploy",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
