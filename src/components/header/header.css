@@ -1,0 +1,127 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(209, 206, 206);
+}
+
+.headerMenu {
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.headerImg {
+    width: 170px;
+    height: 120px;
+    border-radius: 2px;
+    cursor: pointer;
+    object-fit: cover;
+    margin: 0;
+    padding-top: 2px;
+}
+
+/*.headerCenter {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.headerList {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+
+.headerListItem {
+    list-style: none;
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;    
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    padding: 4px;
+}
+
+:hover.link {
+    border-radius: 10px;
+    background-color: white;
+    transition: 1s;
+}
+
+
+
+.headerDireto {
+    gap: 6px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.headerIcon {
+    font-size: 25px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 4px;
+    border-radius: 14px;
+    padding: 10px;
+    background-color: rgb(219, 217, 217);
+}
+
+.headerIconLink {
+    font-size: 25px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: rgb(219, 217, 217);
+    color: black;
+}
+
+.headerIconLink:hover{
+    color: rgb(166, 168, 166);
+}
+
+.headerIcon:hover {
+    color: rgb(166, 168, 166);
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .headerMenu {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .headerDireto {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .headerList{
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+}

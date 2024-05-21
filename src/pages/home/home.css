@@ -1,0 +1,54 @@
+.home {
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.Img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.homeHistoria{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;    
+}
+
+.linha {
+    border-bottom: 4px solid rgb(94 163 181);
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;      
+}
+
+.homeTexto {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+.linhaBaixo{
+    border-bottom: 4px solid rgb(94 163 181);
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+}
+
+@media screen and (max-width: 768px){
+    .home{
+        display: block;
+        width: 100%;
+    }
+    .homeTexto{
+        display: block;
+        width: 100%;
+    }
+}

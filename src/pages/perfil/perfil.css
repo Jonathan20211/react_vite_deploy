@@ -1,0 +1,99 @@
+.perfil {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfilTitulo {
+    margin-left: 60px;
+    align-items: normal;
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;    
+}
+
+.linha {
+    border-bottom: 4px solid rgb(94 163 181);
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perfilTexto {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 20px;   
+}
+
+/*.perfilExperiencia {
+    width: auto;
+    display: flex;
+    max-width: 80rem;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+    justify-content: space-between;
+    border: 2px solid green;
+}
+
+.perfilProfissional {
+    border: 2px solid rgb(201, 200, 200);
+    border-radius: 4px;
+    padding: 4px;
+
+}
+
+.perfilProfissional li {
+    list-style: none;
+    text-align: left;
+}
+
+.perfilDesenvolvimento {
+    border: 2px solid rgb(201, 200, 200);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.perfilDesenvolvimento li {
+    list-style: none;
+    text-align: left;
+}
+
+.perfilAdministração {
+    border: 2px solid rgb(201, 200, 200);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.perfilAdministração li {
+    list-style: none;
+    text-align: left;
+}
+
+.perfilTitiloExperiencia {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .perfil {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .perfilExperiencia {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+}
+*/
